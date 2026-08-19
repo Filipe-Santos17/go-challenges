@@ -1,13 +1,3 @@
-/*
-1. As Temperaturas da Semana
-Uma estação meteorológica envia, todo dia à meia-noite, sete temperaturas (uma para cada dia da semana anterior) em graus Celsius. Você recebe esses valores e precisa:
-
-Calcular a média semanal, a menor e a maior temperatura.
-Identificar se houve algum dia com temperatura abaixo de zero (geada).
-As temperaturas devem ser armazenadas em uma estrutura fixa de sete posições.
-Dica: Considere o tipo numérico mais adequado e uma estrutura de dados com tamanho fixo. Use uma constante para o número de dias.
-*/
-
 package main
 
 import (

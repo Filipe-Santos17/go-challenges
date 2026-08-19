@@ -1,19 +1,11 @@
-/*
-Calculadora de Saúde
-Você está construindo um app de saúde. Há um cadastro de usuários com nome, peso (kg) e altura (m). Ao medir novamente uma pessoa, os novos valores chegam separados e você precisa atualizar o registro existente — não criar um novo.
-
-Implemente uma função que, dado um usuário e novos valores de peso e altura, atualize o struct original. Em seguida, calcule o IMC (peso/altura²) e classifique: abaixo do peso (< 18.5), normal (18.5–24.9), sobrepeso (25–29.9), obesidade (≥ 30).
-
-Dica: O que garante que o struct original será modificado? Pense em como passar dados mutáveis para funções em Go.
-*/
 package main
 
 import (
-"bufio"
-"fmt"
-"os"
-"strconv"
-"strings"
+	"bufio"
+	"fmt"
+	"os"
+	"strconv"
+	"strings"
 )
 
 type user struct {
