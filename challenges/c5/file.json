@@ -1,0 +1,6 @@
+{
+  "port": 8080,
+  "debug": true,
+  "allowed_hosts": ["localhost", "127.0.0.1"],
+  "timeout_seconds": 30
+}
